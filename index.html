@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiting Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .card {
+            width: 900px;
+            height: 500px;
+            border: 2px solid #000;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: url('background_photo.jpg.webp') no-repeat center center/cover;
+            color: #fff;
+        }
+
+        .details {
+            width: 55%;
+        }
+
+        .details h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .details h2 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #ffd700;
+        }
+
+        .details p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .owners {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .owners img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+        }
+
+        .owners p {
+            font-size: 20px; /* Increased font size */
+            font-weight: bold;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+        }
+
+        .qr {
+            margin-top: 20px;
+        }
+
+        .qr img {
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="details">
+            <div class="logo">
+                <img src="star_logo.png.jpg" alt="Logo">
+                <h1>STAR PRE-OWNED CARZ</h1>
+            </div>
+            <h2>MULTI-BRAND</h2>
+            <p>All types of Buy & Sell used Cars</p>
+            <p>Shop No.1, # 738, 30th B Cross,<br>Eastend Road, 4th T Block, Tilak Nagar,<br>Jayanagar, Bengaluru - 560041</p>
+            <p>Email: starpreowncarz@gmail.com</p>
+        </div>
+        <div class="owners">
+            <div>
+                <img src="owner2.jpg.jpg" alt="Syed Shafiq">
+                <p>Syed Shafiq<br>+91 76768 67700</p>
+            </div>
+            <div>
+                <img src="owner1.jpg.jpg" alt="Sameer Baig">
+                <p>Sameer Baig<br>+91 98452 45395</p>
+            </div>
+        </div>
+        <div class="qr">
+            <img src="qr_code.png.png" alt="QR Code">
+            <p>Scan to Location</p>
+        </div>
+    </div>
+</body>
+</html>
